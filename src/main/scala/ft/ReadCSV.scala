@@ -1,14 +1,6 @@
 package ft
 
-import java.util
-
-import org.apache.spark.api.java.JavaRDD
-import org.apache.spark.sql.types._
-import org.apache.spark.sql.{Row, RowFactory, SQLContext}
-import org.apache.spark.{SparkConf, SparkContext}
-
 import scala.collection.mutable.Stack
-import scala.util.parsing.json.JSON
 
 object ReadCSV {
 
